@@ -39,6 +39,28 @@ functions_py
 
 A longer description of your project goes here...
 
+Setup::
+    
+    virtualenv venv
+    . venv/bin/activate
+    pip install -e .
+
+
+Set environment variables::
+    
+        cp .env.example .env
+
+Run::
+
+    cd src
+    python project_name_py/main.py
+    
+References
+==========
+
+https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html
+https://google.github.io/styleguide/pyguide.html
+https://pyscaffold.org/en/stable/usage.html
 
 .. _pyscaffold-notes:
 
